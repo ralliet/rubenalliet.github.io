@@ -51,7 +51,7 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .section-heading {
@@ -307,6 +307,15 @@ header.masthead p {
   background-color: #f8f9fa !important;
 }
 
+#submit {
+  width:18em;
+}
+
+#submit:hover, #submit:focus, #submit:active {
+  color: #fff;
+  background-color: #00427c !important;
+}
+
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(201, 201, 201, 0.5) !important;
 }
@@ -321,5 +330,77 @@ header.masthead p {
   color: #333;
   height: 60px;
   margin: 10px 0;
+  display: inline-block;
+}
+
+
+h3.headline {
+  margin: 58px 0 48px 0;
+  font-size: 28px;
+}
+
+.sidebar-textbox ul.contact-details {
+  list-style: none;
+  padding: 5px 0 0 0;
+}
+
+
+.sidebar-textbox ul.contact-details li {
+  text-align: left;
+  padding-left: 60px;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.sidebar-textbox ul.contact-details li i {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  font-size: 32px;
+  color: #333;
+  top: 10px;
+}
+
+.sidebar-textbox {
+  display: inline-block;
+  width: 100%;
+  padding-right: 40px;
+}
+
+input, input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea, select {
+  padding: 12px 18px;
+  outline: none;
+  font-size: 15px;
+  color: #909090;
+  margin: 0 0 20px 0;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: #fff;
+  font-weight: 500;
+  border: 1px solid #e0e0e0;
+  opacity: 1;
+  min-height: 53px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.03);
+}
+
+#contact textarea {
+  min-height: 200px;
+  margin: 15px 0 25px 0;
+}
+
+.sidebar-textbox ul.contact-details li strong {
+  display: block;
+  color: #333;
+}
+
+.sidebar-textbox span {
+  color: #666;
   display: inline-block;
 }
