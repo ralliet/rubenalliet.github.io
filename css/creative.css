@@ -404,3 +404,65 @@ input, input[type="text"], input[type="password"], input[type="email"], input[ty
   color: #666;
   display: inline-block;
 }
+
+.skills-container {
+  width: 100%;
+  display: inline-block;
+}
+
+.skill-bar {
+  height: 8px;
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  margin: 25px 0 35px;
+}
+
+body .skill-bar-value {
+  overflow: visible;
+}
+
+.skill-bar-value {
+  display: block;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background: #00427c;
+  border-radius: 50px;
+}
+
+.skill-title h5 {
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 5;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  top: -35px;
+  width: 90%;
+  text-align: left;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  -webkit-margin-before: 1.67em;
+  -webkit-margin-after: 1.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+.margin-top-30 {
+  margin-top: 30px!important;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
