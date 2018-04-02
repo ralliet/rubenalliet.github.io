@@ -391,7 +391,7 @@ input, input[type="text"], input[type="password"], input[type="email"], input[ty
 }
 
 #contact textarea {
-  min-height: 200px;
+  min-height: 250px;
   margin: 15px 0 25px 0;
 }
 
