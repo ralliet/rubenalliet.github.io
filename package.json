@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/rubenalliet/rubenalliet.github.io/issues"
   },
-  "homepage": "https://github.com/rubenalliet/rubenalliet.github.io#readme"
+  "homepage": "https://github.com/rubenalliet/rubenalliet.github.io#readme",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-coffee": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest"
+    }
 }
