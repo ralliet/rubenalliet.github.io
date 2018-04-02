@@ -18,11 +18,15 @@
   "homepage": "https://github.com/rubenalliet/rubenalliet.github.io#readme",
   "devDependencies": {
     "gulp": "latest",
-    "gulp-util": "latest",
-    "gulp-sass": "latest",
+    "gulp-clean-css": "^3.9.3",
     "gulp-coffee": "latest",
-    "gulp-uglify": "latest",
     "gulp-concat": "latest",
-    "gulp-connect": "latest"
-    }
+    "gulp-connect": "latest",
+    "gulp-minify": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "latest",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "latest",
+    "pump": "^3.0.0"
+  }
 }
