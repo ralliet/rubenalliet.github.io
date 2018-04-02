@@ -1,0 +1,19 @@
+{
+  "name": "rubenalliet.github.io",
+  "version": "1.0.0",
+  "description": "CV of Ruben Alliet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenalliet/rubenalliet.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubenalliet/rubenalliet.github.io/issues"
+  },
+  "homepage": "https://github.com/rubenalliet/rubenalliet.github.io#readme"
+}
